@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="청년정책\n통합검색"
+        android:textSize="48sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="24dp"/>
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginVertical="24dp">-->
+<!--        <TextView-->
+<!--            android:id="@+id/name"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="정책 이름 및 내용"-->
+<!--            android:drawableLeft="@drawable/ic_search"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:textSize="18sp"/>-->
+<!--        <EditText-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@+id/name"-->
+<!--            android:inputType="text"/>-->
+<!--    </RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginBottom="24dp">
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="정책 유형"
+            android:drawableLeft="@drawable/ic_search"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:background="@drawable/shape_spinner"
+            android:textAlignment="center"
+            android:spinnerMode="dropdown" />
+
+        <Spinner
+            android:id="@+id/type_detail_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:layout_toRightOf="@id/type_spinner"
+            android:background="@drawable/shape_spinner"
+            android:layout_marginLeft="12dp"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지역 구분"
+            android:drawableLeft="@drawable/ic_search"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"/>
+
+        <GridView
+            android:id="@+id/region_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/region"
+            android:numColumns="3"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true"
+            android:textAlignment="center"
+            android:verticalSpacing="12dp"
+            android:layout_marginTop="16dp"
+            android:listSelector="@drawable/gridview_selector" />
+<!--
+            <TextView
+                android:id="@+id/region_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_margin="16dp"
+                android:text="서울"/>
+-->
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="검색"
+        android:backgroundTint="@color/teal_200"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>

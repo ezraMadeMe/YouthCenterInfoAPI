@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bizTycdSel">
+        <item>대분류 선택</item>
+        <item>취업 지원</item>
+        <item>창업 지원</item>
+        <item>주거/금융</item>
+        <item>생활/복지</item>
+        <item>정책 참여</item>
+        <item>코로나19</item>
+    </string-array>
+
+    <string-array name="type00">
+        <item>소분류 선택</item>
+    </string-array>
+
+    <string-array name="type01">
+        <item>소분류 선택</item>
+        <item>교육훈련·체험·인턴</item>
+        <item>중소(중견)기업 취업지원</item>
+        <item>전문분야 취업지원</item>
+        <item>해외진출</item>
+    </string-array>
+
+    <string-array name="type02">
+        <item>소분류 선택</item>
+        <item>R&amp;D 지원</item>
+        <item>경영 지원</item>
+        <item>자본금 지원</item>
+    </string-array>
+
+    <string-array name="type03">
+        <item>소분류 선택</item>
+        <item>생활비지원 및 금융 혜택</item>
+        <item>주거지원</item>
+        <item>학자금 지원</item>
+    </string-array>
+
+    <string-array name="type04">
+        <item>소분류 선택</item>
+        <item>건강</item>
+        <item>문화</item>
+    </string-array>
+
+    <string-array name="type05">
+        <item>소분류 선택</item>
+        <item>정책제안</item>
+        <item>권리보호</item>
+        <item>지역발전</item>
+    </string-array>
+
+    <string-array name="type06">
+        <item>소분류 선택</item>
+        <item>기본소득지원</item>
+        <item>저소득층지원</item>
+        <item>재난피해지원</item>
+        <item>소득및일자리보전</item>
+        <item>기타 인센티브</item>
+        <item>심리지원</item>
+    </string-array>
+
+    <string-array name="name_region">
+        <item>서울</item>
+        <item>부산</item>
+        <item>대구</item>
+        <item>인천</item>
+        <item>광주</item>
+        <item>대전</item>
+        <item>울산</item>
+        <item>경기</item>
+        <item>강원</item>
+        <item>충북</item>
+        <item>충남</item>
+        <item>전북</item>
+        <item>전남</item>
+        <item>경북</item>
+        <item>경남</item>
+        <item>제주</item>
+        <item>세종</item>
+    </string-array>
+
+</resources>
